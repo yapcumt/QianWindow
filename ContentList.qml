@@ -4,7 +4,7 @@ import QtQuick.Controls 2.14
 import QtCharts 2.14
 import QtQuick.Controls.Material 2.12
 import Qt.Singleton 1.0
-import QtGraphicalEffects 1.14
+import Qt5Compat.GraphicalEffects
 import "qrc:/common"
 Rectangle {
     id: contentList

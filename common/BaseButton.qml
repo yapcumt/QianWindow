@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
-import QtGraphicalEffects 1.12
+import Qt5Compat.GraphicalEffects
 Button {
     id: container
     property string bckcolor: "#1AAD19"

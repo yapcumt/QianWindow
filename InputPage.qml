@@ -2,16 +2,16 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.14
 import QtQuick.Controls.Material 2.12
-import QtQuick.Dialogs 1.3
+import QtQuick.Dialogs
 import "qrc:/common"
-
+import Qt5Compat.GraphicalEffects
 Item {
 
     FileDialog {
         id: _file
         title: "打开文件"
-        selectMultiple: true
-        selectFolder: false
+//        selectMultiple: true
+//        selectFolder: false
         nameFilters: ["all files (*.png *.jpg *.mp3 *.mp4 *.avi *.wav)"]
         onAccepted: {
             for(let i = 0; i < fileUrls.length; i++) {
